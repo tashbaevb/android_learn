@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#FBE7E7"
+        android:padding="18dp"
+        tools:layout_editor_absoluteY="27dp" tools:layout_editor_absoluteX="1dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lotty_sun"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Deine Lust"
+              android:textSize="24sp"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginTop="132dp"
+              android:background="@color/white"
+              app:layout_constraintHorizontal_bias="0.498"/>
+
+    <ImageView android:layout_width="90dp"
+               android:layout_height="90dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               android:src="@drawable/just"/>
+
+
+    <Button android:id="@+id/btn_generate"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="236dp"
+            android:textSize="18sp"
+            android:text="Generate"
+            android:textAllCaps="true"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.856"/>
+
+    <TextView android:id="@+id/tx_otvet"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="312dp"
+              android:background="@color/white"
+              android:textAlignment="center"
+              android:textSize="24sp"
+              android:visibility="visible"
+
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView android:id="@+id/tvMainAnswer"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="360dp"
+              android:background="@color/white"
+              android:textSize="24sp"
+              android:textAlignment="center"
+
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lotty_one"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:layout_marginTop="408dp"
+            android:visibility="invisible"
+
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lotty_two"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:layout_marginTop="488dp"
+            android:visibility="invisible"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:layout_constraintHorizontal_bias="0.0"/>
+
+    <Button android:id="@+id/btn_next"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="236dp"
+            android:textSize="18sp"
+            android:text="Weiter"
+            android:textAllCaps="true"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.169"
+
+            android:onClick="openCalculatorActivity"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
