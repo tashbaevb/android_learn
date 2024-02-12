@@ -47,7 +47,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.048"
-            android:layout_marginBottom="376dp"/>
+            android:layout_marginBottom="376dp"
+            android:onClick="onClearClick"/>
     <Button
             android:text="@string/prozent_button"
             android:layout_width="83dp"
@@ -83,7 +84,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.347"
-            android:layout_marginBottom="292dp"/>
+            android:layout_marginBottom="292dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/button_9"
             android:layout_width="83dp"
@@ -92,7 +94,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.643"
-            android:layout_marginBottom="292dp"/>
+            android:layout_marginBottom="292dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/button_7"
             android:layout_width="83dp"
@@ -101,7 +104,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.048"
-            android:layout_marginBottom="292dp"/>
+            android:layout_marginBottom="292dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/multiple_button"
             android:layout_width="83dp"
@@ -120,7 +124,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.347"
-            android:layout_marginBottom="208dp"/>
+            android:layout_marginBottom="208dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/button_6"
             android:layout_width="83dp"
@@ -130,7 +135,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.643"
-            android:layout_marginBottom="208dp"/>
+            android:layout_marginBottom="208dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/button_4"
             android:layout_width="83dp"
@@ -140,7 +146,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.048"
-            android:layout_marginBottom="208dp"/>
+            android:layout_marginBottom="208dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/minus_button"
             android:layout_width="83dp"
@@ -160,7 +167,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.643"
-            android:layout_marginBottom="124dp"/>
+            android:layout_marginBottom="124dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/button_2"
             android:layout_width="83dp"
@@ -169,7 +177,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.347"
-            android:layout_marginBottom="124dp"/>
+            android:layout_marginBottom="124dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/button_1"
             android:layout_width="83dp"
@@ -178,7 +187,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.048"
-            android:layout_marginBottom="124dp"/>
+            android:layout_marginBottom="124dp"
+            android:onClick="onNumberClick"/>
     <Button
             android:text="@string/plus_button"
             android:layout_width="83dp"
@@ -197,5 +207,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.066"
-            android:layout_marginBottom="40dp"/>
+            android:layout_marginBottom="40dp"
+            android:onClick="onNumberClick"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
