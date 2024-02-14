@@ -10,15 +10,32 @@
         android:padding="18dp"
         tools:layout_editor_absoluteY="27dp" tools:layout_editor_absoluteX="1dp">
 
+    <Button android:id="@+id/btn_next2"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="180dp"
+            android:textSize="16sp"
+            android:text="Products"
+            android:textAllCaps="true"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+
+            android:onClick="openProductActivity"/>
+
     <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lotty_sun"
-            android:layout_width="match_parent"
-            android:layout_height="213dp"
+            android:layout_width="383dp"
+            android:layout_height="166dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:lottie_autoPlay="true"
-            app:lottie_loop="true"/>
+            app:lottie_loop="true"
+            android:layout_marginTop="4dp"
+            app:layout_constraintHorizontal_bias="0.514"/>
 
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
@@ -42,7 +59,7 @@
     <Button android:id="@+id/btn_generate"
             android:layout_width="140dp"
             android:layout_height="60dp"
-            android:layout_marginTop="236dp"
+            android:layout_marginTop="240dp"
             android:textSize="18sp"
             android:text="Generate"
             android:textAllCaps="true"
@@ -50,7 +67,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.856"/>
+            app:layout_constraintHorizontal_bias="0.845"/>
 
     <TextView android:id="@+id/tx_otvet"
               android:layout_width="match_parent"
@@ -108,7 +125,7 @@
     <Button android:id="@+id/btn_next"
             android:layout_width="140dp"
             android:layout_height="60dp"
-            android:layout_marginTop="236dp"
+            android:layout_marginTop="240dp"
             android:textSize="18sp"
             android:text="Weiter"
             android:textAllCaps="true"
@@ -116,7 +133,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.169"
+            app:layout_constraintHorizontal_bias="0.154"
 
             android:onClick="openCalculatorActivity"/>
 

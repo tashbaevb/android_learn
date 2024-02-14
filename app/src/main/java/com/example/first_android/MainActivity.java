@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CalculatorActivity.class);
         startActivity(intent);
     }
+
+    public void openProductActivity(View view) {
+        Intent intent2 = new Intent(this, ProductActivity.class);
+        startActivity(intent2);
+    }
 }
