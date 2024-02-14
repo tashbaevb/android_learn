@@ -25,7 +25,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CalculatorActivity" />
-        <activity android:name=".ProductActivity" />
+        <activity android:name=".products.ProductActivity" />
+        <activity android:name=".products.ProductDetailActivity" />
+        <activity android:name=".products.AddProductActivity" />
     </application>
 
 </manifest>
