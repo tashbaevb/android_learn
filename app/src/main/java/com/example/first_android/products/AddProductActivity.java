@@ -34,7 +34,7 @@ public class AddProductActivity extends AppCompatActivity {
         addProductButton = findViewById(R.id.addProductButton);
 
         productService = new Retrofit.Builder()
-                .baseUrl("http://192.168.0.102:8085/")
+                .baseUrl("http://192.168.0.103:8085/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(ProductService.class);

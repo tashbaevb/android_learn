@@ -19,4 +19,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+    <Button
+            android:id="@+id/btn_add"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="List"
+            android:textAllCaps="true"
+            android:onClick="openListProductActivity"/>
+
 </LinearLayout>

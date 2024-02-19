@@ -1,6 +1,8 @@
 package com.example.first_android.products;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.first_android.R;
@@ -24,6 +26,12 @@ public class ProductDetailActivity extends AppCompatActivity {
             priceTextView.setText(String.valueOf(product.getPrice()));
             descriptionTextView.setText(product.getDescription());
         }
+    }
+
+
+    public void openListProductActivity(View view) {
+        Intent intent = new Intent(this, ProductActivity.class);
+        startActivityForResult(intent, 200);
     }
 }
 

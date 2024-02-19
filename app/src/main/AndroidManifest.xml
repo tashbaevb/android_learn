@@ -28,6 +28,7 @@
         <activity android:name=".products.ProductActivity" />
         <activity android:name=".products.ProductDetailActivity" />
         <activity android:name=".products.AddProductActivity" />
+        <activity android:name=".kosmonavt.KosmonavtActivity" />
     </application>
 
 </manifest>
