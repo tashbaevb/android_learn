@@ -37,6 +37,5 @@ public class KosmonavtActivity extends AppCompatActivity {
 
             startActivity(emailIntent);
         });
-
     }
 }
